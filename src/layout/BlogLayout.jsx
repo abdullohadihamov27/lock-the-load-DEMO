@@ -7,11 +7,10 @@ export default function BlogLayout() {
     <>
       <h4>.</h4>
       <Box sx={{
-        backgroundColor: 'primary.main',
         padding: 0,
         width: 1350,
         margin: 0,
-        borderRadius: 1
+        borderRadius: 0
       }}>
         <h2 className="blog-title">Blog: Posts</h2>
         <div className="blog-cards">
