@@ -7,7 +7,7 @@ export default function blogcard1() {
       <h2>.</h2>
       <Box sx={{
         padding: 0,
-        width: 1350,
+        width: 1400,
         margin: 0,
         borderRadius: 0
       }}>
