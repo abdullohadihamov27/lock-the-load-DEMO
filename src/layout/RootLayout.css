@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 105px;
+    background: #f1f1f1;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo img {
+    float: left;
+    padding: 25px 10pc;
+}
+
+.nav_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.chrome_btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 40px;
+    background: #EFF0F2;
+    border: 2px solid #FF6000;
+    border-radius: 18px;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    width: 235px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 3pc;
+    color: #282B30;
+    transition: all 0.2s ease-in-out;
+    background: rgb(255, 96, 0);
+    color: rgb(255, 255, 255);
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    gap: 53px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -1pc;
+    /* margin-top: 1px; */
+}
+
+.list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* FeaturesLayout css start */
+
+.features h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF6000;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #282B30;
+    margin: 30px auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+}
+
+/* FeaturesLayout css end */
+
+/* blog css start */
+.blog-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #6B6B6B;
+    margin-top: 7pc;
+    margin-left: 12pc;
+    margin-bottom: -8pc;
+}
+
+.blog-cards {
+    margin-top: 10pc;
+}
+
+.blog_card {
+    width: 30%;
+    margin-left: 54pc;
+}
+
+.blog_img img {
+    margin-left: 12pc;
+    width: 41%;
+    float: left;
+}
+
+.blog_card h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #282B30;
+    /* margin: 0; */
+}
+
+.blog_card h6 {
+    margin-bottom: 7px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6B6B6B;
+}
+
+.blog_card p {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6B6B6B;
+}
+
+.blog_card h3 button {
+    width: 128px;
+    height: 40px;
+    border-radius: 10px;
+    background: #F4511E;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    border: none;
+    margin-top: 24px;
+    list-style-type: none;
+}
+
+.clearFix {
+    clear: both;
+}
+
+/* blog css end */
+
+
+/* footer  */
+.footer {
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 10pc;
+    padding-top: 1pc;
+    background: #F5F5F5;
+    border-radius: 28px;
+}   
+.footer-circle{
+    margin-top: 6pc;
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 1pc;
+}
+.footer-btn{
+    margin-top: 1pc;
+    margin-left: 70pc;
+}
+.footer-ul{
+    margin-left: 30pc;
+    width: 50%;
+    display: inline-block;
+}
+.footer-list{
+    /* margin-left: 8pc; */
+    list-style-type: none;
+}
+.last-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3pc;
+    margin-left: 9pc;
+    margin-right: 9pc;
+    padding: 10px;
+}
+.footer-hr{
+    width: 80%;
+    margin-left: 9pc;
+    margin-top: 1pc;
+    margin-bottom: 1pc;
+}
+.active{
+    color: #F4511E;
+}
+/* footer */
