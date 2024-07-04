@@ -30,7 +30,7 @@ export default function RootLayout() {
             <footer>
                 <Box sx={{
                     padding: 2,
-                    width: 1350,
+                    width: 1500,
                     margin: 1,
                     borderRadius: 1
                 }}>
