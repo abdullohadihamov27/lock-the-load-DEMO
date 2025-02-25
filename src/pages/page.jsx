@@ -59,8 +59,6 @@ export default function page() {
 
                 <div className="our-product">
                     <div className="cycles">
-                        <img src="https://locktheload.com/static/media/cycle3.22237ea66caf35a9e78a.png" className="cycle1" alt="" />
-                        <img src="https://locktheload.com/static/media/cycle3.22237ea66caf35a9e78a.png" className="cycle2" alt="" />
                     </div>
                     <h2 className="product-title">Why are dispatchers worldwide  <br /> choosing<span style={{ color: 'rgb(255, 96, 0)' }}> our product</span>?</h2>
                     <div className="stat_item">
@@ -304,7 +302,6 @@ export default function page() {
                 </div>
 
                 <div className="our-dispatchers">
-                    <img src="https://www.locktheload.com/static/media/shadow.29dd653e98198dbb70a9.png" alt="" className="shadow" />
                     <h2 className="our-dispatchers-title">Our products for Dispatchers</h2>
 
                     <div className="our-dispatchers-cards">

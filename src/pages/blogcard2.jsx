@@ -12,10 +12,10 @@ export default function blogcard2() {
       }}>
         <div className="blog-card1">
           <div className="card2-img">
-            <img src="" alt="" />
+            <img src="https://locktheload.com/static/media/blog3.fc384c39c15e7263fc85.png" alt="" />
           </div>
           <div className="blog1-section">
-            <div className="blog_logo"><img src="https://locktheload.com/static/media/blog_logo.a1a492c46a6f53891d09fdb645ed0b4e.svg" alt="" />
+            <div className="blog_logo"><img src="https://locktheload.com/static/media/logo.efb5f14179bd8c3b538f.png" alt="" />
               <b>BLOG</b>
             </div>
             <h1>Best of 2014: Top 10 Commercial Photos</h1>
@@ -33,19 +33,19 @@ export default function blogcard2() {
         <div className="bottom_blogs">
           <a href="/blogcard" className="bottom_blog">
             <div className="bottom_blog_item">
-              <img src="https://locktheload.com/static/media/blog1.850fb07b0876bf298ec1.png" alt="" />
+              <img src="https://locktheload.com/static/media/blog1.074d108a63334d97deca.png" alt="" />
               <p>6 common issues to correct before <br />  submitting your photos to Licensing</p>
             </div>
           </a>
           <a href="/blogcard1" className="bottom_blog">
             <div className="bottom_blog_item">
-              <img src="https://locktheload.com/static/media/blog2.86f07b419d139d23682a.png" alt="" />
+              <img src="https://locktheload.com/static/media/blog2.105ab9944683da28453b.png" alt="" />
               <p>We asked AI about the future of <br /> trucking industry</p>
             </div>
           </a>
           <a href="/blogcard3" className="bottom_blog">
             <div className="bottom_blog_item">
-              <img src="https://locktheload.com/static/media/blog4.c9dca219f4ea629e372b.png" alt="" />
+              <img src="https://locktheload.com/static/media/blog4.4af232bd9bc734cc6a29.png" alt="" />
               <p>Best of 2014: Top 10 Truck Prime <br /> Photos</p>
             </div>
           </a>

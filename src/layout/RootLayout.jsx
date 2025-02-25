@@ -10,7 +10,7 @@ export default function RootLayout() {
             <header className="header">
                 <nav className="nav-container">
                     <div className="logo">
-                        <a href="/"> <img src="https://www.locktheload.com/static/media/logo.53fa8ac9fdd3341b4ab2ef9844475e67.svg" alt="" /></a>
+                        <a href="/"> <img width={180} src="https://locktheload.com/static/media/logo.efb5f14179bd8c3b538f.png" alt="" /></a>
                     </div>
                     <div className="nav_right">
                         <ul className="list">
@@ -35,7 +35,6 @@ export default function RootLayout() {
                     borderRadius: 1
                 }}>
                     <div className="main-footer">
-                        <img src="https://locktheload.com/static/media/cycle3.22237ea66caf35a9e78a.png" className="footer-circle" alt="" />
                         <div className="footer">
                             <div className="logo">
                                 <a href="/">

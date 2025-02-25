@@ -21,6 +21,7 @@
 }
 
 .nav_right {
+    padding-left: 5pc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,27 +104,35 @@
     color: #6B6B6B;
     margin-top: 7pc;
     margin-left: 12pc;
-    margin-bottom: -8pc;
 }
 
 .blog-cards {
-    margin-top: 10pc;
+    margin-left: 10pc;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 80%;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    margin-top: 5pc;
 }
 
 .blog_card {
-    width: 30%;
-    margin-left: 54pc;
+    margin-top: 1pc;    
+    width: 48%;
+    margin-left: 40pc;
 }
 
 .blog_img img {
-    margin-left: 12pc;
-    width: 41%;
+    height: 280px;
+    border-radius: 12px;
+    width: 50%;
     float: left;
 }
 
 .blog_card h4 {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 40px;
     color: #282B30;
     /* margin: 0; */
@@ -132,31 +141,30 @@
 .blog_card h6 {
     margin-bottom: 7px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 32px;
-    color: #6B6B6B;
+    color: blue;
 }
 
 .blog_card p {
     margin-bottom: 15px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
     color: #6B6B6B;
 }
 
 .blog_card h3 button {
-    width: 128px;
-    height: 40px;
+    width: 180px;
+    height: 50px;
     border-radius: 10px;
-    background: #F4511E;
+    background: blue;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     text-transform: capitalize;
     border: none;
-    margin-top: 24px;
+    margin-top: 30px;
     list-style-type: none;
 }
 
@@ -177,8 +185,9 @@
     padding-top: 1pc;
     background: #F5F5F5;
     border-radius: 28px;
-}   
-.footer-circle{
+}
+
+.footer-circle {
     margin-top: 6pc;
 
     position: absolute;
@@ -186,20 +195,24 @@
     height: 300px;
     margin-top: 1pc;
 }
-.footer-btn{
+
+.footer-btn {
     margin-top: 1pc;
     margin-left: 70pc;
 }
-.footer-ul{
+
+.footer-ul {
     margin-left: 30pc;
     width: 50%;
     display: inline-block;
 }
-.footer-list{
+
+.footer-list {
     /* margin-left: 8pc; */
     list-style-type: none;
 }
-.last-part{
+
+.last-part {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -208,13 +221,16 @@
     margin-right: 9pc;
     padding: 10px;
 }
-.footer-hr{
+
+.footer-hr {
     width: 80%;
     margin-left: 9pc;
     margin-top: 1pc;
     margin-bottom: 1pc;
 }
-.active{
+
+.active {
     color: #F4511E;
 }
+
 /* footer */
